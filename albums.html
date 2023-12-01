@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Albums - Taylor Swift</title>
+
+    <!-- link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link to Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- inline styles for the body, including background image and transition effect -->
+    <style>
+        body {
+            background-image: url("images/texture2.jpg");
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        /* styles for the video container */
+        .video-container {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- container div for the entire content -->
+    <div class="container">
+        <!-- header section with navigation -->
+        <header>
+            <nav class="navbar">
+                <!-- logo with an image -->
+                <div class="logo">
+                    <img src="images/tsicon.png" alt="Taylor Swift Logo" style="height: 60px;">
+                </div>
+
+                <!-- navigation links -->
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+
+                    <!-- dropdown menu for tours -->
+                    <div class="dropdown">
+                        <a href="#">Tours</a>
+                        <div class="dropdown-content">
+                            <a href="tours.html">The TS Eras Tour</a>
+                        </div>
+                    </div>
+
+                    <a href="albums.html">Albums</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- main content section -->
+        <main>
+            <!-- album section with links to each album -->
+            <div class="albums">
+                <a href="https://taylor.lnk.to/1989taylorsversion"><img src="images/album1.jpg" alt="1989" width="1200" height="700"></a>
+                <a href="https://taylor.lnk.to/1989taylorsversion"><img src="images/album2.jpg" alt="1989" width="1200" height="700"></a>
+                <a href="https://taylor.lnk.to/1989taylorsversion"><img src="images/album3.jpg" alt="1989" width="1200" height="700"></a>
+            </div>
+
+            <!-- video container with a link to the official store -->
+            <div class="video-container">
+                <a href="https://store.taylorswift.com/collections/music-products">
+                    <video width="1800" height="700" autoplay muted>
+                        <source src="images/video1.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </div>
+        </main>
+
+        <!-- footer section with copyright notice and social media icons -->
+        <footer>
+            <!-- copyright notice -->
+            &copy; 2023 All rights reserved. Made by Jennifer.
+
+            <!-- social media icons in the bottom navigation -->
+            <div class="bottomnav">
+                <a href="https://www.facebook.com/TaylorSwift/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/taylorswift13?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/taylorswift/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+</html>

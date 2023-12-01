@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home - Taylor Swift</title>
+    <!-- link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link to Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- inline styles for the body, fade in and background image -->
+    <style>
+        body {
+            background-image: url("images/texture2.jpg");
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- container div for the entire content -->
+    <div class="container">
+        <!-- navbar section -->
+        <div class="navbar">
+            <!-- logo with an image -->
+            <div class="logo">
+                <img src="images/tsicon.png" alt="Logo" style="height: 60px;">
+            </div>
+
+            <!-- navigation links -->
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+
+                <!-- dropdown menu for Tours -->
+                <div class="dropdown">
+                    <a href="">Tours</a>
+                    <div class="dropdown-content">
+                        <a href="tours.html">The TS Eras Tour</a>
+                    </div>
+                </div>
+
+                <a href="albums.html">Albums</a>
+            </div>
+        </div>
+
+        <!-- main content section -->
+        <main>
+            <!-- video container with an embedded YouTube video -->
+            <div class="video-container">
+                <iframe width="1300" height="700" src="https://www.youtube.com/embed/KudedLV0tP0?si=uW_Au_AxcL4VfERW" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </main>
+
+            <!-- footer section with copyright notice and social media icons -->
+        <footer>
+            <!-- copyright notice -->
+            &copy; 2023 All rights reserved. Made by Jennifer.
+
+            <!-- social media icons in the bottom navigation -->
+            <div class="bottomnav">
+                <a href="https://www.facebook.com/TaylorSwift/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/taylorswift13?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/taylorswift/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+</html>

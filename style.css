@@ -1,0 +1,230 @@
+/* styling for body and information section */
+body, .info {
+    font-family: 'Courier New', monospace;
+}
+
+/* styling for information section */
+.info {
+    background-color: white;
+    padding: 10px;
+}
+
+/* container styling */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* iframe styling */
+iframe {
+    width: 100%;
+}
+
+/* footer styling */
+footer {
+    background-image: url('images/texture.jpg');
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* navbar styling */
+.navbar {
+    background-image: url('images/texture.jpg');
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* navbar link styling */
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* navbar link hover effect */
+.navbar a:hover {
+    background-color: #d2b48cbd;
+    color: rgb(255, 255, 255);
+}
+
+/* video container styling */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+/* iframe inside video container styling */
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* dropdown styling */
+.dropdown {
+    display: inline-block;
+}
+
+/* dropdown content styling */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    padding: 10px;
+}
+
+/* dropdown hover effect */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* social icons styling */
+.social-icons {
+    margin-left: auto;
+}
+
+/* bottom navigation link styling */
+.bottomnav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+
+/* bottom navigation link hover effect */
+.bottomnav a:hover {
+    color: #000000;
+}
+
+/* slideshow container styling */
+.slideshow-container {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* styling for slides and images */
+.mySlides {
+    width: 100%;
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* styling for dots in slideshow */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* styling for active dot */
+.active {
+    background-color: #d2b48c;
+}
+
+/* styling for previous and next buttons in slideshow */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* styling for previous button */
+.prev {
+    left: 0;
+}
+
+/* styling for next button */
+.next {
+    right: 0;
+}
+
+/* hover effect for previous and next buttons */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* styling for general buttons */
+button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* hover effect for general buttons */
+button:hover {
+    background-color: #5945a0;
+}
+
+/* styling for form */
+form {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    max-width: 1700px;
+    justify-content: space-between;
+}
+
+/* styling for form labels */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* styling for form inputs and selects */
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* styling for form button */
+form button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* hover effect for form button */
+form button:hover {
+    background-color: rgb(55, 0, 55);
+}

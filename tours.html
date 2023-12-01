@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- page title -->
+    <title>Tours - Taylor Swift</title>
+
+    <!-- link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link to Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- inline styles for the body, including background image and transition effect -->
+    <style>
+        body{background-image: url("images/texture2.jpg");
+        opacity: 0;
+    transition: opacity 1s ease-in-out;}
+      </style>
+</head>
+<body>
+    <!-- container div for the entire content -->
+    <div class="container">
+        <!-- navigation bar -->
+        <div class="navbar">
+            <!-- logo with an image -->
+            <div class="logo">
+                <img src="images/tsicon.png" alt="Logo" style="height: 60px;">
+            </div>
+            <!-- navigation links -->
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <!-- dropdown menu for tours -->
+                <div class="dropdown">
+                    <a>Tours</a>
+                    <div class="dropdown-content">
+                        <a href="tours.html">The TS Eras Tour</a>
+                    </div>
+                </div>
+                <a href="albums.html">Albums</a>
+            </div>
+        </div>
+
+        <!-- image slideshow section -->
+        <div class="slideshow-container">
+            <!-- slides with images and videos -->
+            <div class="mySlides fade">
+                <img src="images/eratour.jpg" alt="world wide infor">
+            </div>
+            <div class="mySlides fade">
+                <iframe width="1300" height="600" src="https://www.youtube.com/embed/ZcpGJTI5GsY?si=BhyMXnjDXkEZs7Sy" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="mySlides fade">
+                <iframe width="1300" height="600" src="https://www.youtube.com/embed/TC1UnBDfrQA?si=VstgtiCq83IQZoFe" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+        <!-- navigation arrows for the slideshow -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <!-- image with tour details -->
+        <img src="images/taylor_tour.jpg" alt="tour" style="max-width: 100%; height: auto;">
+         <!-- horizontal line -->
+        <hr>
+        <!-- ticket purchase form -->
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="ticketType">Ticket Type:</label>
+                <select id="ticketType" name="ticketType" required>
+                    <option value="" disabled selected>Select Ticket Type</option>
+                    <option value="cat1">CAT 1</option>
+                    <option value="cat9">CAT 9</option>
+                    <option value="vip">VIP 1</option>
+                </select>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+        
+                <button type="submit">Purchase Tickets</button>
+            </form>
+             <!-- horizontal line -->
+            <hr>
+ <!-- information section -->
+            <div class="info">
+                 <!-- horizontal line -->
+                <hr>
+                <h2>Event Details</h2>
+                <!-- event details paragraph -->
+                    <p>The UOB Cardmembers Presale for Taylor Swift | The Eras Tour in Singapore is now SOLD OUT!<br><br>
+                        Standby for General On-sale happening on Friday, 7 July at 12pm (SGT)<br><br>
+                        ONLY access code holders will have the opportunity to purchase tickets for the General On-sale.</p>
+                         <!-- horizontal line -->
+                <hr>
+                    <p>Taylor Swift announced additional dates to Taylor Swift | The Eras Tour today. Singapore will be the only stop in Southeast Asia. Taylor Swift | The Eras Tour in Singapore is presented by Marina Bay Sands and supported by the Singapore Tourism Board, official bank and pre-sale partner UOB, and official experience partner Klook, promoted by AEG Presents Asia, and produced by Taylor Swift Touring.<br><br>
+                    The shows in Singapore will take place on March 2, 3, & 4 and 7, 8 & 9 2024 at Singapore National Stadium.</p>
+                     <!-- horizontal line -->
+                <hr>
+                    <h3>Terms and Conditions</h3>
+                    <!-- terms and conditions -->
+                    <ol>
+                      <li>Ticket sales are limited to a maximum of (four) 4 per account.</li>
+                      <li>All tickets will be released 2 weeks before the concert date.</li>
+                      <li>Your ticket purchase constitutes a personal, revocable license and, at all times, remains the property of the event organizer.</li>
+                    </ol>
+                     <!-- horizontal line -->
+                <hr>
+            </div>
+
+            <div class="albums">
+        <img src="images/map.png" alt="Logo" style="max-width: 100%; height: auto;">
+        </div>
+
+        <footer> &copy; 2023 All rights reserved. Made by Jennifer.
+
+        <div class="bottomnav">
+            <a href="https://www.facebook.com/TaylorSwift/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/taylorswift13?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/taylorswift/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
